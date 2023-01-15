@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/navbar.css';
+import {Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Navbar() {
     return (
@@ -13,9 +15,10 @@ function Navbar() {
                         <input type="search" name="query"/>
                     </label>
                 </form>
-                <button id={'login'}
-                >Zaloguj się
-                </button>
+                    <Link to='/Login' style={{ textDecoration: 'none' }}> <Button>
+                        <button id={'login'}
+                        >Zaloguj się
+                        </button> </Button></Link>
             </div>
         </nav>
     );

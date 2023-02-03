@@ -1,0 +1,35 @@
+.movie-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: #312222;
+    padding: 20px 20px;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.movie-img {
+    max-width: 250px;
+    max-height: 285px;
+}
+
+.movie-card__text {
+    margin: 30px;
+}
+
+.rate-symbol {
+    color: #84ff00;
+    font-size: 1.6rem;
+}
+
+.link {
+    color: #eee;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.link:hover {
+    color: #b5000f;
+}

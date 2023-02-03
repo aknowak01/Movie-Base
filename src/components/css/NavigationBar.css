@@ -1,0 +1,51 @@
+.form-control {
+	padding: 6px 12px;
+	text-align: left;
+}
+
+.text {
+	color: #eeeeee;
+}
+.box {
+	height: 100%;
+}
+span {
+	text-transform: uppercase;
+	transition: color 0.3s;
+}
+
+.text-second {
+	color: #b5000f;
+}
+
+.navigation-bar__logo:hover ~ span,
+span:hover {
+	color: #b5000f;
+}
+
+.btn-nav {
+	display: inline;
+	background: transparent;
+	border: 1px solid #b5000f;
+	border-radius: 8px;
+	color: #eeeeee;
+	cursor: pointer;
+	margin: 0 0.5em;
+	transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+
+.btn-nav:hover {
+	background-color: #b5000f;
+	color: #312222;
+	border: 1px solid transparent;
+}
+
+@media (min-width: 768px) {
+	.btn-nav {
+		margin: 0 2em;
+	}
+
+	.form-control {
+		width: 350px;
+	}
+}

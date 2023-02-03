@@ -1,17 +1,14 @@
-import React from 'react';
-import './styles/Home.css'
-import Footer from '../components/Footer'
-import Navbar from "../components/Navbar";
-import Container from "../components/Conatainer";
+import NavigationBar from '../../../../WebstormProjects/untitled/src/components/NavigationBar';
+import Footer from '../../../../WebstormProjects/untitled/src/components/Footer'
+import Content from '../../../../WebstormProjects/untitled/src/components/Content'
+import './css/Home.css';
 
-function Home() {
+const Home = () => {
     return (
-        <div className="Home">
-            <Navbar/>
-            <div id={'container'}>
-               <Container />
-            </div>
-            <Footer id={'footer'}/>
+        <div className='home'>
+            <NavigationBar/>
+            <Content/>
+            <Footer/>
         </div>
     );
 }

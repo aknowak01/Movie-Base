@@ -1,0 +1,14 @@
+footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #312226;
+	padding: 20px 10px;
+	font-size: 1.2rem;
+	text-align: center;
+	color: #eeeeee;
+}
+
+span {
+    color: #b5000f;
+}
